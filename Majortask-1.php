@@ -62,7 +62,7 @@
     
     // Display Username and Password on the browser
     for ($i=0; $i < count($defaultUsername); $i++) { 
-        echo "<h3>Username : {$defaultUsername[$i]} <br/> password : {$passwords [$i]}</h3>";
+        echo "<h4>Username : {$defaultUsername[$i]} <br/> password : {$passwords [$i]}</h4>";
     }
     return;
 }
